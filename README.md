@@ -5,3 +5,7 @@
 * install arduino uno
 * search & install drivers for board through menu
 * change wifi username & password
+
+
+### TODO
+plan for this project was to add heating for dehumidifying my piano. When I installed sensors humidity was ok. I will finish project if humidity will rise again in the summer time.
