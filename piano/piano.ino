@@ -26,7 +26,8 @@ ESP8266WebServer server(80);
 // higher the value.  The default for a 16mhz AVR is a value of 6.  For an
 // Arduino Due that runs at 84mhz a value of 30 works.
 // This is for the ESP8266 processor on ESP-01
-DHT dht(DHTPIN, DHTTYPE, 11); // 11 works fine for ESP8266
+DHT dht(DHTPIN, DHTTYPE, 11); // 11 works fine for ESP8266 
+//pin 11 is pin D4 on CH340 v3 NodeMcu!!
 
 
 
